@@ -13,7 +13,7 @@
 async function getid(){
     try {
         
-        let res=await fetch(`http://localhost:3000/playlistTrackId`)
+        let res=await fetch(`https://spotify-fake-server.herokuapp.com/playlistTrackId`)
         let data=await res.json()
         // console.log(data)
  

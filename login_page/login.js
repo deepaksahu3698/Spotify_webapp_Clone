@@ -3,7 +3,7 @@ async function loginuser(){
     let flag=false
     let user_enter_password=document.getElementById("login_password").value;
     try {
-        let res=await fetch(`http://localhost:3000/user_data`);
+        let res=await fetch(`https://spotify-fake-server.herokuapp.com/user_data`);
         let data=await res.json()
         // console.log(data)
         data.forEach(e => {
