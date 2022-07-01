@@ -32,7 +32,7 @@ try {
         "user_DOBday":user_dobday,
         "user_gender":user_genderr_final
     };
-    let res=await fetch(`http://localhost:3000/user_data`,{
+    let res=await fetch(`https://spotify-fake-server.herokuapp.com/user_data`,{
         method:"POST",
         body:JSON.stringify(body),
         headers:{
