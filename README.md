@@ -5,3 +5,6 @@ Clone of Spotify.com - Spotify is a proprietary Swedish audio streaming and medi
  <h1> DEMO </h1>
 
 <img src="https://github.com/deepaksahu3698/Spotify_webapp_Clone/blob/main/Spotify.gif">
+
+## Tech Stacks
+ Html |  CSS  | Javascript
